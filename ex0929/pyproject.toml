@@ -1,0 +1,26 @@
+[project]
+name = "ex0929"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yujins01", email = "neosyj01@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.4.2",
+    "langchain-teddynote>=0.5.4",
+    "langchain-upstage>=0.7.7",
+    "matplotlib>=3.11.2",
+    "mysql-connector-python>=26.7.0",
+    "pypdf>=6.19.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+ex0929 = "ex0929:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
