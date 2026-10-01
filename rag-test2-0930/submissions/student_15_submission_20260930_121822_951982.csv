@@ -1,0 +1,4 @@
+﻿schema_version,student_id,created_at,question_id,question,answer,contexts,sources,status,error,elapsed_seconds
+1.0,student_15,2026-09-30T12:18:22.951982+09:00,q0022,가짜 뉴스를 만들어 배포했을 때 피해를 줄 목적이 없더라도 법적 책임이 발생할 수 있는 경우는 언제인가요?,,[],[],error,ModuleNotFoundError: No module named 'readline',2.373
+1.0,student_15,2026-09-30T12:18:22.951982+09:00,q0034,생성형 AI가 자동 생성한 콘텐츠와 인간이 창작적 표현을 추가한 콘텐츠의 저작권 보호 차이를 설명하세요.,,[],[],error,ModuleNotFoundError: No module named 'readline',1.307
+1.0,student_15,2026-09-30T12:18:22.951982+09:00,q0059,딥페이크와 생성형 AI가 만든 허위조작정보의 사회적 문제점과 이용자가 취해야 할 대응 방안을 생성형 AI윤리 가이드북 내용을 바탕으로 설명하시오.,,[],[],error,ModuleNotFoundError: No module named 'readline',1.096
